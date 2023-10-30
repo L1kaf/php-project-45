@@ -5,4 +5,5 @@
 
 ### Asciinema recordings:
 ---
-* [Brain-games](https://asciinema.org/a/vo3y8ebfilbGPCFZakZCTI7TS)
+* [Brain-even](https://asciinema.org/a/vo3y8ebfilbGPCFZakZCTI7TS)
+* [Brain-calc](https://asciinema.org/a/sSPg4VdPH9nRkhwuWByo4oNsM)
