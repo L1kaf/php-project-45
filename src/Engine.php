@@ -15,7 +15,7 @@ function engine($result, $task)
     line($task);
     foreach ($result as $key => $value) {
         $answer = prompt("Question: $key\nYour answer");
-        if ($answer === $value) {
+        if ($answer == $value) {
             line("Correct!");
         } else {
             // Если ответ не правильный, то выводится об этом ошибка с правилтным ответом и выходит из игры
