@@ -5,10 +5,15 @@
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         },
-        "files": ["src/Cli.php"]
+        "files": [
+            "src/Cli.php",
+            "src/Engine.php",
+            "src/games/IsEven.php"
+        ]
     },
     "bin": [
-        "bin/brain-games"
+        "bin/brain-games",
+        "bin/brain-even"
     ],
     "authors": [
         {
