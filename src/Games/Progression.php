@@ -20,6 +20,7 @@ function progression()
         $progression[$randKey] = "..";
         $question[$i] = implode(" ", $progression);
     }
+    // Объединение в массив вопросов и ответов
     $result = array_combine($question, $answer);
     // Вопрос игры и вызов общей функции engine
     $task = 'What number is missink in the progression?';
