@@ -8,7 +8,7 @@ use function cli\prompt;
 function engine($result, $task)
 {
     // Блок приветсвия
-    line("Welcome to the Brain Game!");
+    line("Welcome to the Brain Games!");
     $name = prompt("May I have your name?", "", " ");
     line("Hello, %s!", $name);
     // Вывод вопроса и проверка ответов

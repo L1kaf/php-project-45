@@ -10,6 +10,6 @@ if (file_exists($autoloadPath1)) {
     require_once ($autoloadPath2);
 }
 // Объявляем функцию из srs/Cli.php
-use function BrainGames\Cli\greering;
+use function BrainGames\Cli\greeting;
 // Вызываем ее
-greering();
+greeting();
