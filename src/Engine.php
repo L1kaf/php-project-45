@@ -5,7 +5,7 @@ namespace BrainGames\Cli;
 use function cli\line;
 use function cli\prompt;
 
-function engine($result, $task)
+function engine(array $result, string $task)
 {
     // Блок приветсвия
     line("Welcome to the Brain Games!");

@@ -3,7 +3,7 @@
 namespace BrainGames\Cli;
 
 // Проверка на простое число
-function isPrime($number)
+function isPrime(int $number)
 {
     if ($number < 1) {
         return false;
@@ -19,15 +19,17 @@ function isPrime($number)
 // Проверка с рандомными числами на простое число
 function prime()
 {
+    // Числа, которые выведутся на экран
+    $question = [];
     // Правильные ответы
     $answer = [];
     // Получение рандомных чисел
+    $randNumber = [];
     for ($i = 0; $i < 3; $i++) {
         $randNumber[] = rand(1, 100);
     }
     // Проверка на простое число с уже полученными данными
     foreach ($randNumber as $number) {
-        // Числа, которые выведутся на экран
         $question[] = $number;
 
         $temp = isPrime($number);
