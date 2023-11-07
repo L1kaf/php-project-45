@@ -3,26 +3,26 @@
 [![Actions Status](https://github.com/L1kaf/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/L1kaf/php-project-45/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9c48429c7ab2d9e5e654/maintainability)](https://codeclimate.com/github/L1kaf/php-project-45/maintainability)
 
-### Описание:
+### Description:
 ---
-Этот репозиторий содержит реализацию первого проекта учебного портала Hexlet: Brain Games! В проекте 5 мини игр. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+This repository contains the realization of the first project of the Hexlet learning portal: Brain Games! There are 5 mini-games in the project. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Incorrect answers end the game and offer to pass it again.
 
-### Минимальные требование:
+### System Requirements:
 ---
-* ОС Windows/Linux;
-* PHP не ниже 7 версии.
+* OS Windows/Linux;
+* PHP version 7+.
 
-### Установка и запуск:
+### Installation and startup:
 ---
-* Для установки используется Makefile с командой install, выполняющий команду composer install: `make install`  
-* Для запуска игры достаточно ввести команду make с названием игры в командной строке:
-  * make brain-even - в игре надо ответить является число четным или же нет.
-  * make brain-calc - в игре надо сложить, вычесть или умножить два числа и дать верный ответ.
-  * make brain-gcd  - в игре надо найти наибольший общий делитель двух чисел и дать верный ответ.
-  * make brain-progression - в игре надо найти пропущеный элемент арифметической прогрессии.
-  * make brain-prime - в игре надо ответить простое показанное число или нет.  
+* For installation, a Makefile with the install command is used, executing the composer install command: `make install`  
+* To start the game it is enough to enter the command make with the name of the game in the command line:
+  * make brain-even - in the game it is necessary to answer whether the number is even or not.
+  * make brain-calc - in the game it is necessary to add, subtract or multiply two numbers and give the correct answer.
+  * make brain-gcd  - in the game you have to find the greatest common divisor of two numbers and give the correct answer.
+  * make brain-progression - in the game you have to find the missing element of arithmetic progression.
+  * make brain-prime - in the game it is necessary to answer whether the shown number is prime or not. 
 
-Например: `make brain-even`
+For example: `make brain-even`
 
 ### Asciinema recordings:
 ---
