@@ -5,7 +5,7 @@ namespace BrainGames\Cli;
 // Проверка на простое число
 function isPrime(int $number)
 {
-    if ($number < 1) {
+    if ($number < 2) {
         return false;
     }
 
